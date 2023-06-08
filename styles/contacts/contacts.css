@@ -1,0 +1,49 @@
+.contacts {
+    padding-top: 50px;
+}
+
+.contacts h2 {
+    text-transform: uppercase;
+    padding-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.links {
+    float: left;
+    padding-bottom: 51px;
+}
+
+.group-one {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.lnks {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.group-two {
+    padding-top: 39px;
+    display: flex;
+    gap: 27px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

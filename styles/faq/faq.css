@@ -1,0 +1,59 @@
+.faq {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.faq h2 {
+    text-transform: uppercase;
+    padding-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+}
+
+.faq li{
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1C1A1A;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 30px 70px;
+    position: relative;
+    list-style: none;
+}
+
+.faq li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.faq li:nth-child(odd) {
+    background-color: #440F51;
+    color: white;
+}
+
+.faq li:nth-child(odd):after { 
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    background-size: cover;
+    background-image: url("./img/open.svg");
+}
+
+.faq li:nth-child(even):after {  
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    background-size: cover;
+    background-image: url("./img/open-purple.svg");
+}

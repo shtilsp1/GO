@@ -1,0 +1,80 @@
+.halls {
+    padding: 50px;
+    display: flex;
+}
+
+.cards-field a {
+    height: 710px;
+    width: 1180px;
+}
+
+.cards-field li:nth-child(1) {
+    background: url('./img/80.png');
+    background-size: contain;
+}
+
+.cards-field li:nth-child(2) {
+    background: url('./img/star.png');
+    background-size: contain;
+}
+
+.cards-field li:nth-child(3) {
+    background: url('./img/west.png');
+    background-size: contain;
+}
+
+.cards-field li:nth-child(4) {
+    background: url('./img/neon.png');
+    background-size: contain;
+}
+
+.cards-field a{
+    width: 580px;
+    height: 349px;
+}
+
+
+.halls h2 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.halls a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.cards-field ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+.halls-img {
+    display: flex;
+    margin: auto;
+}
+
+.cards-field p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    margin: auto;
+    text-transform: uppercase;
+    width: 250px;
+    text-align: center;
+
+}
