@@ -8,12 +8,64 @@
     <title>GO</title>
 </head>
 <body>
+    <section class="nav">
+        <div class="container">
+            <img src="/styles/nav/img/logo.svg" alt="logo">
+            <ul class="nav-list">
+                <li>Залы</li>
+                <li>О нас</li>
+                <li>Бронь</li>
+                <li>Отзывы</li>
+                <li>Контакты</li>
+            </ul>
+            <button class="nav-btn">Заказать звонок</button>
+        </div>
+    </section>
     <section class="title">
         <div class="container">
             <section class="title-text">
                 <h1>Game over</h1>
                 <p>Новый формат игр и отдыха</p>
             </section>
+            <div class="title-info">
+                <div class="title-info-text">
+                    <div class="tema-halls">
+                        <p class="tema__purple">4</p>
+                        <p>Тематических залла</p>
+                    </div>
+                    <div class="new-apparutura">
+                        <p class="tema__purple-smaller">new</p>
+                        <p>Новейшая аппарутра</p>
+                    </div>
+                </div>
+                <button class="title-info-btn">Забронировать</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="we-got-all">
+        <div class="container">
+            <h2>У нас есть все для классного отдыха с друзьями!</h2>
+            <div class="we-got-all-cards">
+                <div class="we-got-all-card">
+                    <img src="/styles/we-got-all/img/1.png" alt="">
+                </div>
+                <div class="we-got-all-card">
+                    <img src="/styles/we-got-all/img/2.png" alt="">
+                </div>
+                <div class="we-got-all-card">
+                    <img src="/styles/we-got-all/img/3.png" alt="">
+                </div>
+                <div class="we-got-all-card">
+                    <img src="/styles/we-got-all/img/4.png" alt="">
+                </div>
+                <div class="we-got-all-card">
+                    <img src="/styles/we-got-all/img/5.png" alt="">
+                </div>
+                <div class="we-got-all-card">
+                    <img src="/styles/we-got-all/img/6.png" alt="">
+                </div>
+            </div>
         </div>
     </section>
 
@@ -60,92 +112,97 @@
     <section class="book">
         <div class="container">
 
-            <h2>Забронировать</h2>
+            <h2>Забронировать зал просто</h2>
 
             <form>
-                
-                <fieldset>
-                    <label><input type="radio" name="holl">80's vibe</label>
-                    <label><input type="radio" name="holl">Star wars</label>
-                    <label><input type="radio" name="holl">Wild west</label>
-                    <label><input type="radio" name="holl">Neon style</label>
+                <h3>Выбери зал</h3>
+                <fieldset class="form-halls">
+                    
+                    <label><button class="form-halls-btn">80's vibe</button></label>
+                    <label><button class="form-halls-btn">Star wars</button></label>
+                    <label><button class="form-halls-btn">Wild west</button></label>
+                    <label><button class="form-halls-btn">Neon style</button></label>
                 </fieldset>
 
-                <fieldset>
+                <h3>Собери набор развлечений</h3>
 
-                    <legend>Cобери набор развлечений</legend>
+                <fieldset class="kit">
 
-                    <fieldset>
-                        <legend>приставка:</legend>
-                        <label><input type="radio" name="prefix">PlayStation</label>
+                    <fieldset class="kit-el">
+                        <h4>Приставка:</h4>
+                        <label><input type="radio" name="prefix">PlayStation 5</label>
                         <label><input type="radio" name="prefix">Sega Mega Drive</label>
                         <label><input type="radio" name="prefix">X-box One S</label>
                         <label><input type="radio" name="prefix">Dendy</label>
                     </fieldset>
 
-                    <fieldset>
-                        <legend>Настольные Игры:</legend>
-                        <label><input type="radio" name="borad-game">jenga</label>
-                        <label><input type="radio" name="borad-game">Monopoly</label>
-                        <label><input type="radio" name="borad-game">Манчкин</label>
-                        <label><input type="radio" name="borad-game">Alias</label>
+                    <fieldset class="kit-el">
+                        <h4>Настольные Игры:</h4>
+                        <label><input type="checkbox" name="borad-game">jenga</label>
+                        <label><input type="checkbox" name="borad-game">Monopoly</label>
+                        <label><input type="checkbox" name="borad-game">Манчкин</label>
+                        <label><input type="checkbox" name="borad-game">Alias</label>
                     </fieldset>
 
-                    <fieldset>
-                        <legend>Дополнительно:</legend>
+                    <fieldset class="kit-el">
+                        <h4>Дополнительно:</h4>
                         <label><input type="checkbox" name="additionally">Караоке</label>
                         <label><input type="checkbox" name="additionally">VR</label>
                     </fieldset>
 
                 </fieldset>
 
+                <h3>Выбери дату и время</h3>
+
                 <fieldset class="date">
 
-                    <legend>выбери дату и время</legend>
+                    <div class="date-el date-left">
 
-                    <label>
-                        Дата* <input type="date" name="date">
-                    </label>
+                        <div class="date-left-top">
+                            <label> 
+                                <input type="date" name="date">
+                            </label>
+        
+                            <label> 
+                                <input type="time" name="time">
+                            </label>
+                        </div>
+    
+                        <label class="people-count">
+                            <p>Количество человек</p>
+                            <input type="text" name="people-count">
+                        </label>
 
-                    <label>
-                        Время* <input type="time" name="time">
-                    </label>
+                    </div>
 
-                    <br>
+                    <div class="date-el date-center">
+                        <label>
+                            <p>Имя</p>
+                            <input type="text" name="name">
+                        </label>
+    
+                        <label>
+                            <p>Фамилия</p>
+                            <input type="text" name="surname">
+                        </label>
+                    </div>
 
-                    <label>
-                        Количество человек* <input type="text" name="people-count">
-                    </label>
 
-                    <br>
-
-                    <label>
-                        Имя* <input type="text" name="name">
-                    </label>
-
-                    <br>
-
-                    <label>
-                        Фамилия <input type="text" name="surname">
-                    </label>
-
-                    <br>
-
-                    <label>
-                        Номер телефона* <input type="tel" name="tel">
-                    </label>
-
-                    <br>
-
-                    <label>
-                        <input type="checkbox" name="age"> Я старше 18 лет
-                    </label>
+                    <div class="date-el date-right">
+                        <label>
+                            <p>Номер телефона</p>
+                            <input type="tel" name="tel">
+                        </label>
+    
+                        <label>
+                            <p>E-mail</p>
+                            <input type="email" name="email">
+                        </label>
+                    </div>
 
                 </fieldset>
 
-                <button type="submit">Забронировать</button>
-
-                <input type="checkbox" name="aprove"> Согласен на обработку данных
+                <button class="book-btn" type="submit">Забронировать</button>
 
             </form>
         </div>
@@ -231,37 +288,50 @@
         <div class="container">
             <h2>Контакты</h2>
 
-            <section class="links">
+            <div class="contacts-content">
+                <section class="links">
 
-                <section class="group-one">
-                    <a href="#">
-                        <section class="location lnks">
-                            <img src="../img/map.png" alt="локация">
-                            <p>г. Москва <br> ул. Аквамарина, 16</p>
-                        </section>
-                    </a>
-                    <a href="#">
-                        <section class="phone lnks">
-                            <img src="../img/phone.png" alt="номер телфона">
-                            <p>8 (950) 930 - 28 - 93</p>
-                        </section>
-                    </a>
-                    <a href="#">
-                        <section class="mail lnks">
-                            <img src="../img/mail.png" alt="почта">
-                            <p>GameOver@gmail.com</p>
-                        </section>
-                    </a>
+                    <section class="group-one">
+                        <a href="#">
+                            <section class="location lnks">
+                                <img src="../img/map.png" alt="локация">
+                                <p>г. Москва <br> ул. Аквамарина, 16</p>
+                            </section>
+                        </a>
+                        <a href="#">
+                            <section class="phone lnks">
+                                <img src="../img/phone.png" alt="номер телфона">
+                                <p>8 (950) 930 - 28 - 93</p>
+                            </section>
+                        </a>
+                        <a href="#">
+                            <section class="mail lnks">
+                                <img src="../img/mail.png" alt="почта">
+                                <p>GameOver@gmail.com</p>
+                            </section>
+                        </a>
+                    </section>
+    
+                    <section class="group-two">
+                        <a href="#"><img src="../img/vk.png" alt="vk"></a>
+                        <a href="#"><img src="../img/tg.png" alt="telegram"></a>
+                        <a href="#"><img src="../img/pinterest.png" alt="pinterest"></a>
+                        <a href="#"><img src="../img/wtf.png" alt="я не знаю, что это за соц-сеть"></a>
+                    </section>
+    
                 </section>
+    
+                <img src="./styles/contacts/img/map.png" alt="map">
+            </div>
 
-                <section class="group-two">
-                    <a href="#"><img src="../img/vk.png" alt="vk"></a>
-                    <a href="#"><img src="../img/tg.png" alt="telegram"></a>
-                    <a href="#"><img src="../img/pinterest.png" alt="pinterest"></a>
-                    <a href="#"><img src="../img/wtf.png" alt="я не знаю, что это за соц-сеть"></a>
-                </section>
+            <div class="footer">
+                <p>© Game Over, 2022</p>
 
-            </section>
+                <div class="footer-right">
+                    <p>Design by Anastasia Ilina</p>
+                    <p>ilina9825@gmail.com</p>
+                </div>
+            </div>
         </div>
     </section>
 </body>

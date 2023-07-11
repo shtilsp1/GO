@@ -1,0 +1,19 @@
+.we-got-all h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 41px;
+}
+
+.we-got-all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.we-got-all-card {
+    width: 380px;
+}

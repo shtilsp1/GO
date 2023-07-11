@@ -1,6 +1,12 @@
 .contacts {
     padding-top: 50px;
+    background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
 }
+
+.contacts .container {
+    height: 629px;
+}
+
 
 .contacts h2 {
     text-transform: uppercase;
@@ -46,4 +52,29 @@
 a {
     text-decoration: none;
     color: white;
+}
+
+.contacts-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+}
+
+.footer {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    text-align: right;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
