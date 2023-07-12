@@ -121,6 +121,7 @@ form input[type="radio"] {
 .date-left-top {
     display: flex;
     gap: 32px;
+    padding-top: 25px;
 }
 
 .date label {
@@ -134,6 +135,7 @@ form input[type="radio"] {
     flex-direction: column;
     gap: 36px;
     align-self: center;
+    
 }
 
 .date-center input,

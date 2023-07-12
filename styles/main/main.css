@@ -31,8 +31,7 @@ body {
     height: 662px;
 }
 
-.title::after {
-    content: url('./img/down.png');
+.down {
     position: absolute;
     top: 699px;
     right: 582px;
