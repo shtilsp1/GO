@@ -30,6 +30,22 @@
     padding: 12px 32px;
 }
 
+.nav-btn:hover {
+    border: 2px solid rgba(108, 2, 135, 1);
+    background-color: rgba(108, 2, 135, 1);
+}
+
+.nav-btn:active {
+    border: 2px solid rgba(100, 10, 163, 1);
+    background-color: rgba(100, 10, 163, 1);
+}
+
+.nav-btn:focus {
+    border: 2px solid rgba(108, 2, 135, 1);
+    background-color: rgba(108, 2, 135, 1);
+}
+
+
 .nav {
     margin-bottom: 50px;
 }

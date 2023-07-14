@@ -110,3 +110,18 @@ body {
     border-radius: 10px;
     box-shadow: 0px 0px 10px 3px rgba(108, 2, 135, 1)
 }
+
+.title-info-btn:hover {
+    background-color: rgba(132, 10, 163, 1);
+    border: 1px solid rgba(132, 10, 163, 1);
+}
+
+.title-info-btn:active {
+    background-color: rgba(100, 10, 163, 1);
+    border: 1px solid rgba(100, 10, 163, 1);
+}
+
+.title-info-btn:focus {
+    background-color: rgba(132, 10, 163, 1);
+    border: 1px solid rgba(132, 10, 163, 1);
+}

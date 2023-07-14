@@ -63,6 +63,7 @@ form h3 {
 }
 
 .form-halls-btn {
+    border: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -70,6 +71,22 @@ form h3 {
     border-radius: 8px;
     padding: 7px 15px;
     font-weight: bold;
+}
+
+.form-halls-btn:hover {
+    border: 3px solid rgba(100, 10, 163, 1);
+    background-color: rgba(234, 222, 237, 1);
+}
+
+.form-halls-btn:active {
+    border: 3px solid rgba(255, 255, 255, 1);
+    background-color: rgba(108, 2, 135, 1);
+    color: white;
+}
+
+.form-halls-btn:focus {
+    border: 3px solid rgba(100, 10, 163, 1);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .kit {
@@ -169,3 +186,30 @@ form input[type="radio"] {
     margin-right: 85px;
     cursor: pointer;
 }
+
+.book-btn:hover {
+    border: 3px solid rgba(108, 2, 135, 1);
+    background-color: rgba(234, 222, 237, 1);
+    color: rgba(108, 2, 135, 1);
+}
+
+.book-btn:active {
+    border: none;
+    background-color: rgba(234, 222, 237, 1);
+}
+
+.book-btn:focus {
+    border: 3px solid rgba(108, 2, 135, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+input[type="tel"]:focus {
+    outline: none;
+    border: 2px solid rgba(205, 6, 255, 1);
+}
+
+.kit-el input:focus-within {
+    outline: 2px solid rgba(205, 6, 255, 1);
+    border: 2px solid rgba(205, 6, 255, 1);
+}
+
