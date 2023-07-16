@@ -19,11 +19,16 @@
     text-transform: uppercase;
 }
 
+.nav-list a:hover {
+    transition-duration: 0.2s;
+    color: #CD06FF;
+}
+
 .nav-btn {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     line-height: 30px;
-    border: 3px solid #CD06FF;
+    border: 2px solid #CD06FF;
     border-radius: 10px;
     background: none;
     color: white;
@@ -31,8 +36,10 @@
 }
 
 .nav-btn:hover {
+    transition-duration: 0.2s;
     border: 2px solid rgba(108, 2, 135, 1);
     background-color: rgba(108, 2, 135, 1);
+    transition-duration: 0.2s;
 }
 
 .nav-btn:active {

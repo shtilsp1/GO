@@ -79,3 +79,15 @@ a {
     flex-direction: column;
     gap: 6px;
 }
+
+.footer-right a:hover {
+    transition-duration: 0.2s;
+    text-decoration: underline;
+}
+
+
+
+.svg-hover:hover {
+    transition-duration: 0.2s;
+    fill: red;
+}
