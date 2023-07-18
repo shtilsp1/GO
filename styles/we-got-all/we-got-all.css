@@ -16,4 +16,9 @@
 
 .we-got-all-card {
     width: 380px;
+    cursor: pointer;
+}
+
+.we-got-all-card:hover {
+    scale: 1.08;
 }
