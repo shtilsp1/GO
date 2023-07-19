@@ -38,6 +38,54 @@ body {
     cursor: pointer;
 }
 
+.title-link::after {
+    content: "";
+    width: 97px;
+    height: 97px;
+    display: inline-block;
+    position: absolute;
+    top: 699px;
+    right: 582px;
+    background-size: cover;
+    background-image: url("./img/down.svg");
+}
+
+.title-link:hover::after {
+    content: "";
+    width: 97px;
+    height: 97px;
+    display: inline-block;
+    position: absolute;
+    top: 699px;
+    right: 582px;
+    background-size: cover;
+    background-image: url("./img/down-white.svg");
+}
+
+.title-link:focus::after {
+    content: "";
+    width: 97px;
+    height: 97px;
+    display: inline-block;
+    position: absolute;
+    top: 699px;
+    right: 582px;
+    background-size: cover;
+    background-image: url("./img/down-focus.svg");
+}
+
+.title-link:active::after {
+    content: "";
+    width: 97px;
+    height: 97px;
+    display: inline-block;
+    position: absolute;
+    top: 699px;
+    right: 582px;
+    background-size: cover;
+    background-image: url("./img/down-focus.svg");
+}
+
 .title-text {
     margin-bottom: 30px;
 }

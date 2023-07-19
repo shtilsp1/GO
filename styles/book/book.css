@@ -63,6 +63,12 @@ form h3 {
 }
 
 .form-halls-btn {
+
+}
+
+
+.form-halls_radio {
+    display: flex;
     border: 2px solid #440F51;;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -72,20 +78,25 @@ form h3 {
     padding: 7px 15px;
     font-weight: bold;
     cursor: pointer;
+    background-color: white;
 }
 
-.form-halls-btn:hover {
+.form-halls_radio input[type="radio"] {
+    display: none;
+}
+
+.form-halls_radio:hover {
     transition-duration: 0.2s;
     border: 2px solid rgba(100, 10, 163, 1);
     background-color: rgba(234, 222, 237, 1);
 }
 
-.form-halls-btn:active {
+.form-halls_radio:active {
     background-color: rgba(108, 2, 135, 1);
     border: 2px solid rgba(255, 255, 255, 1);
 }
 
-.form-halls-btn:focus {
+.form-halls_radio:focus {
     border: 2px solid rgba(100, 10, 163, 1);
     background-color: rgba(255, 255, 255, 1);
 }

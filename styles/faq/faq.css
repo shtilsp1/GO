@@ -46,6 +46,30 @@
     background-image: url("./img/open.svg");
 }
 
+.faq li:nth-child(odd):hover:after { 
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    background-size: cover;
+    background-image: url("./img/open-fill.svg");
+}
+
+.faq li:nth-child(odd):active:after { 
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    background-size: cover;
+    background-image: url("./img/close.svg");
+}
+
 .faq li:nth-child(even):after {  
     content: "";
     width: 40px;
@@ -56,4 +80,28 @@
     right: 60px;
     background-size: cover;
     background-image: url("./img/open-purple.svg");
+}
+
+.faq li:nth-child(even):hover:after {  
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    background-size: cover;
+    background-image: url("./img/open-fill_purple.svg");
+}
+
+.faq li:nth-child(even):active:after { 
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    background-size: cover;
+    background-image: url("./img/close-purple.png");
 }
