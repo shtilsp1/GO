@@ -30,7 +30,7 @@
 }
 
 .faq li:nth-child(odd) {
-    background-color: #440F51;
+    background-color: var(--main-color);
     color: white;
 }
 

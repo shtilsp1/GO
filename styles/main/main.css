@@ -134,14 +134,14 @@ body {
 
 
 .tema__purple {
-    color: #CD06FF;
+    color: var(--main-title-color);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 100px;
 }
 
 .tema__purple-smaller {
-    color: #CD06FF;
+    color: var(--main-title-color);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 75px;
@@ -149,15 +149,15 @@ body {
 
 .title-info-btn {
     cursor: pointer;
-    background-color: #CD06FF;
-    border: 1px solid #CD06FF;
+    background-color: var(--main-title-color);
+    border: 1px solid var(--main-title-color);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;
     line-height: 30px;
     padding: 25px 69px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 3px rgba(108, 2, 135, 1)
+    box-shadow: 0px 0px 10px 3px var(--hover_focus-color)
 }
 
 .title-info-btn:hover {
@@ -167,8 +167,8 @@ body {
 }
 
 .title-info-btn:active {
-    background-color: rgba(100, 10, 163, 1);
-    border: 1px solid rgba(100, 10, 163, 1);
+    background-color: var(--hover-border-color);
+    border: 1px solid var(--hover-border-color);
 }
 
 .title-info-btn:focus {

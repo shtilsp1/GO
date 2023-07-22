@@ -1,0 +1,10 @@
+:root {
+    --main-color: #440F51;
+    --hover_focus-color: rgba(108, 2, 135, 1);
+    --book_active_focus-border-color: rgba(255, 255, 255, 1);
+    --hover-border-color: rgba(100, 10, 163, 1);
+    --hover-bacground-color: rgba(234, 222, 237, 1);
+    --input-focus-color: rgba(205, 6, 255, 1);
+    --svg-fill: #CD06FF;
+    --main-title-color: #CD06FF;
+}

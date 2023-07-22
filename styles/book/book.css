@@ -1,7 +1,7 @@
 .book {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #440F51;
+    background-color: var(--main-color);
 }
 
 .book form {
@@ -69,7 +69,7 @@ form h3 {
 
 .form-halls_radio {
     display: flex;
-    border: 2px solid #440F51;;
+    border: 2px solid var(--main-color);
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -87,18 +87,18 @@ form h3 {
 
 .form-halls_radio:hover {
     transition-duration: 0.2s;
-    border: 2px solid rgba(100, 10, 163, 1);
-    background-color: rgba(234, 222, 237, 1);
+    border: 2px solid var(--hover-border-color);
+    background-color: var(--hover-bacground-color);
 }
 
 .form-halls_radio:active {
-    background-color: rgba(108, 2, 135, 1);
-    border: 2px solid rgba(255, 255, 255, 1);
+    background-color: var(--hover_focus-color);
+    border: 2px solid var(--book_active_focus-border-color);
 }
 
 .form-halls_radio:focus {
-    border: 2px solid rgba(100, 10, 163, 1);
-    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid var(--hover-border-color);
+    background-color: var(--book_active_focus-border-color);
 }
 
 .kit {
@@ -185,7 +185,7 @@ form input[type="radio"] {
 
 .book-btn {
     color: #6C0287;
-    border: 2px solid #440F51;
+    border: 2px solid var(--main-color);
     border-radius: 10px;
     background-color: white;
     padding: 16px 50px;
@@ -201,28 +201,28 @@ form input[type="radio"] {
 
 .book-btn:hover {
     transition-duration: 0.2s;
-    border: 2px solid rgba(108, 2, 135, 1);
-    background-color: rgba(234, 222, 237, 1);
-    color: rgba(108, 2, 135, 1);
+    border: 2px solid var(--hover_focus-color);
+    background-color: var(--hover-bacground-color);
+    color: var(--hover_focus-color);
 }
 
 .book-btn:active {
     border: none;
-    background-color: rgba(234, 222, 237, 1);
+    background-color: var(--hover-bacground-color);
 }
 
 .book-btn:focus {
-    border: 2px solid rgba(108, 2, 135, 1);
-    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid var(--hover_focus-color);
+    background-color: var(--book_active_focus-border-color);
 }
 
 input[type="tel"]:focus {
     outline: none;
-    border: 2px solid rgba(205, 6, 255, 1);
+    border: 2px solid var(--input-focus-color);
 }
 
 .kit-el input:focus-within {
-    outline: 2px solid rgba(205, 6, 255, 1);
-    border: 2px solid rgba(205, 6, 255, 1);
+    outline: 2px solid var(--input-focus-color);
+    border: 2px solid var(--input-focus-color);
 }
 

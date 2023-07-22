@@ -89,5 +89,5 @@ a {
 
 .svg-hover:hover {
     transition-duration: 0.2s;
-    fill: #CD06FF;
+    fill: var(--svg-fill);
 }
